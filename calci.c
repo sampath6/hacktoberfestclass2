@@ -1,17 +1,13 @@
 #include<stdio.h>
-int product(int a,int b)
+int sum(int a,int b)
 {
-return a*b;
+return a+b;
 
-}
-int diff(int a,int b)
-{
-return (a-b);
 }
 int main()
 {
 int  a=5;b=2;
-printf("product is %d\ndifference is %d\n",product(a,b),diff(a,b));
+printf("sum is %d\n",sum(a,b));
 return 0;
 
 }
